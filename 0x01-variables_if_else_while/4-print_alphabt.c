@@ -1,7 +1,7 @@
 #include <stdio. >
 
 /**
- * main - Prints all lower case letters except e and p
+ * main - Prints all lower case letters except e and q 
  *
  * Return: Always (Success)
  */
@@ -11,7 +11,7 @@ int main(void)
  
 	for (a = 'a'; a <= 'z'; a++)
 	{
-		if (a != 'e' && a != 'p')
+		if (a != 'e' && a != 'q')
 		{
 			putchar(a);
 		}
