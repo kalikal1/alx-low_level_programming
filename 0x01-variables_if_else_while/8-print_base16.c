@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - Prints base 16 aphabetes and numbers
+  * main - Prints a hexadecimal string
   *
   * Return: Always (Success)
   */
