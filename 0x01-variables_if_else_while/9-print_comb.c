@@ -7,15 +7,14 @@
   */
 int main(void)
 {
-	int a;
+	int c;
 
-	for (a = '0'; a <= '9'; a++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		putchar(a);
-		
- 		if (c !=9);
+		putchar(c);
 
- 		{
+		if (c != '9')
+		{
 			putchar(',');
 			putchar(' ');
 		}
@@ -25,6 +24,4 @@ int main(void)
 
 	return (0);
 }
-		
-
 
