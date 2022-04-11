@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 /**
-  * main - Prints integers from 00 t0 99
+  * main - Prints the numbers from 00 to 99
   *
   * Return: Always (Success)
   */
@@ -18,14 +18,14 @@ int main(void)
 			putchar(a);
 			putchar(b);
 
-			if (a != '9'; || (a == '9' && b != 9))
+			if ((a != '9') || (a == '9' && b != '9'))
 			{
 				putchar(',');
 				putchar(' ');
 			}
 		}
 	}
-	
+
 	putchar('\n');
 
 	return (0);
