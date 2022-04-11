@@ -1,3 +1,4 @@
+
 #include <stdio.h>
 
 /**
@@ -7,18 +8,18 @@
   */
 int main(void)
 {
-	int a, b;
+	int c, i;
 
-	a = b = '0';
+	c = i = '0';
 
-	for (a = '0'; a <= '9'; a++)
+	for (c = '0'; c <= '9'; c++)
 	{
-		for (b = '0'; b <= '9'; b++)
+		for (i = '0'; i <= '9'; i++)
 		{
-			putchar(a);
-			putchar(b);
+			putchar(c);
+			putchar(i);
 
-			if ((a != '9') || (a == '9' && b != '9'))
+			if ((c != '9') || (c == '9' && i != '9'))
 			{
 				putchar(',');
 				putchar(' ');
